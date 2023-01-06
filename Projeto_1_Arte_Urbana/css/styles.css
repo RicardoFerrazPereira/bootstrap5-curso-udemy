@@ -23,7 +23,7 @@ a, i {
     background-color: #25282E;
     color: #fff;
     padding: 7px 18px;
-    border-radius: 0;
+  
 }
 
 .btn:hover {
@@ -67,4 +67,22 @@ a, i {
 
 #navbar a:hover {
     color: #C1B696;
+}
+
+/* BANNER PRINCIPAL */
+
+.main-image {
+    height: 400px;
+    border: 1px solid;
+    background-image: url('../img/g_1.jpg');
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.main-image-info {
+    background-color: #fff;
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
 }
