@@ -1,0 +1,32 @@
+/* Estilos gerais */
+
+* {
+    color: #25282E;
+}
+
+a, i {
+    transition: .5s; /* Transição para o "houver" */
+    text-decoration: none; /* Tira o underline do texto */
+}
+
+.secondary-color {
+    color: #555;
+}
+
+.center-image {
+    background-color: cover; /* A imagem vai se adaptar dentro da div */
+    background-position: center;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #25282E;
+    color: #fff;
+    padding: 7px 18px;
+    border-radius: 0;
+}
+
+.btn:hover {
+    background-color: #333;
+    color: #fff;
+}
