@@ -90,6 +90,29 @@
         </form>
     </div>
 
+    <!-- READ ONLY (somente leitura)  -->
+
+    <div class="col-4 m-4">
+        <h2>Formulário de Read Only</h2>
+        <h4>Primeira forma</h4>
+        <form>
+            <div class="mb-4"> <!--Separar os inputs do formulario-->
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email2" name="email2" aria-describedby="emailHelp"
+                    placeholder="Insira seu email" readonly value="farroch@gmail.com">
+               
+            </div>
+            <div class="mb-4"> <!--Separar os inputs do formulario-->
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control-plaintext" id="email3" name="email3" aria-describedby="emailHelp"
+                    placeholder="Insira seu email" value="eddie@gmail.com" readonly>
+                
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
 
 </body>
 
