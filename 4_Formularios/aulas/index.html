@@ -94,26 +94,65 @@
 
     <div class="col-4 m-4">
         <h2>Formulário de Read Only</h2>
-        <h4>Primeira forma</h4>
+        <h4>Tipo 1</h4>
         <form>
             <div class="mb-4"> <!--Separar os inputs do formulario-->
                 <label for="email" class="form-label">E-mail</label>
                 <input type="email" class="form-control" id="email2" name="email2" aria-describedby="emailHelp"
                     placeholder="Insira seu email" readonly value="farroch@gmail.com">
-               
+
             </div>
+            <h4>Tipo 2</h4>
             <div class="mb-4"> <!--Separar os inputs do formulario-->
                 <label for="email" class="form-label">E-mail</label>
-                <input type="email" class="form-control-plaintext" id="email3" name="email3" aria-describedby="emailHelp"
-                    placeholder="Insira seu email" value="eddie@gmail.com" readonly>
-                
+                <input type="email" class="form-control-plaintext" id="email3" name="email3"
+                    aria-describedby="emailHelp" placeholder="Insira seu email" value="eddie@gmail.com" readonly>
+
             </div>
-            
+
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
 
+    <!-- INPUT DE ARQUIVOS -->
 
+    <div class="col-4 m-4">
+        <h2>Teste de input de arquivos</h2>
+        <form>
+            <div class="mb-4">
+                <label for="foto" class="form-label">Apenas um arquivo:</label>
+                <input type="file" class="form-control" id="foto">
+            </div>
+            <div class="mb-4">
+                <label for="foto1" class="form-label">Múltiplos arquivos:</label>
+                <input type="file" class="form-control" id="foto1" multiple>
+            </div>
+            <div class="mb-4">
+                <label for="foto2" class="form-label">Input file desabilitado:</label>
+                <input type="file" class="form-control" id="foto2" disabled>
+            </div>
+        </form>
+    </div>
+
+    <!-- OUTROS ELEMENTOS -->
+    <div class="col-4 m-4">
+
+        <form>
+            <div class="mb-4">
+                <!-- Data list -->
+                <h2>Data List</h2>
+                <label for="cidades" class="form-label">Selecione uma cidade</label>
+                <input class="form-control" list="listaOpcoes" id="cidades" placeholder="Busque a sua cidade...">
+                <datalist id="listaOpcoes">
+                    <option value="São Paulo">
+                    <option value="Paraná">
+                    <option value="Teresópolis">
+                    <option value="Petrópolis">
+                    <option value="Salvador">
+                </datalist>
+            </div>          
+        </form>
+    </div>
 </body>
 
 </html>
