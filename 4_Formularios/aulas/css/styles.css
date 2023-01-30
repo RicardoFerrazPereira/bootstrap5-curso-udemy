@@ -1,8 +1,12 @@
 body {
-    padding-bottom: 500px;
+    padding-bottom: 300px;
     background-color: rgb(195, 190, 190);
 }
 
 h2 {
     color: blueviolet;
+}
+
+.row g-3 {
+    border: 1px solid red;
 }
