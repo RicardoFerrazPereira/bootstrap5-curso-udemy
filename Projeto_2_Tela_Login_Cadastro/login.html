@@ -13,6 +13,34 @@
     <title>Login</title>
 </head>
 <body>
-    <h1>Olá mundo!</h1>
+    <!-- Container com 11 colunas (mobile começa com 11 ), e quando for desketop, vão ter 9 colunas-->
+    <div class="container col-11 col-md-9" id="form-contaneir">
+        <!-- gx-5 - gutter de 5 para espaçar a imagem de formulário -->
+        <div class="row align items-center gx-5">
+            <!-- Conciliando a ordem dos elementos a resolução -  ele vai ser ordenado na posição 2 quando for visualizado no desktop e abaixo disso vai ficar na posição 1 -->
+            <div class="col-md-6 order-md-2">
+                <h2>Faça o login para continuar</h2>
+                <form>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Digite o seu email">
+                        <label for="email" class="form-label">Digite o seu email</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Digite a sua senha">
+                        <label for="password" class="form-label">Digite a sua senha</label>
+                    </div>
+                    <input type="submit" class="btn btn-primary" value="Entrar">
+                </form>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <div class="col-12">
+                    <img src="img/sign_in.svg" alt="Entrar no Sistema" class="img-fluid">
+                </div>
+                <div class="col-12" id="link-container">
+                    <a href="register.html">Ainda não tenho cadastro</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
