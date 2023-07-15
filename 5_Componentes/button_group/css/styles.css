@@ -1,0 +1,11 @@
+body {
+    padding-bottom: 500px;
+}
+
+.container h2 {
+    color: blueviolet;
+}
+
+.container h4 {
+    color: darkgreen;
+}
