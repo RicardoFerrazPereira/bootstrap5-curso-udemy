@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"
+        defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="mt-4">
+            <h2>Exemplo</h2>
+            <div class="card" style="width: 18rem;">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título do Card</h5>
+                    <p class="card-text">Algum texto de exemplo rápido para criar no título do cartão e compor a maior
+                        parte do conteúdo do cartão.</p>
+                    <a href="#" class="btn btn-primary">Ir a algum lugar</a>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-4">Tipos de Conteúdo</h2>
+
+        <div class="mt-4">
+            <h4>Corpo [Body]</h4>
+            <div class="card">
+                <div class="card-body">
+                    Este é algum texto dentro de um corpo de cartão.
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <h4>Títulos, texto e links</h4>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Titulo do Cartão</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Subtítulo do Cartão</h6>
+                    <p class="card-text">Algum texto de exemplo rápido para criar no título do cartão e compor a maior
+                        parte do conteúdo do cartão.</p>
+                    <a href="#" class="card-link">Link</a>
+                    <a href="#" class="card-link">Outro link</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <h4>Imagens</h4>
+            <div class="card" style="width: 18rem;">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Algum texto de exemplo rápido para criar no título do cartão e compor a maior
+                        parte do conteúdo do cartão.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <h4>Listar grupos</h4>
+            <div class="card" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Primeiro item</li>
+                    <li class="list-group-item">Segundo item</li>
+                    <li class="list-group-item">Terceiro item</li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                    Cabeçalho [Header]
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Primeiro item</li>
+                    <li class="list-group-item">Segundo item</li>
+                    <li class="list-group-item">Terceiro item</li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-4">
+            <div class="card" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Primeiro item</li>
+                    <li class="list-group-item">Segundo item</li>
+                    <li class="list-group-item">Terceiro item</li>
+                </ul>
+                <div class="card-footer">
+                    Rodapé [Footer]
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <h4>Pia de cozinha [Kitchen sink]</h4>
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título do Cartão</h5>
+                    <p class="card-text">Algum texto de exemplo rápido para criar no título do cartão e compor a maior
+                        parte do conteúdo do cartão.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Primeiro item</li>
+                    <li class="list-group-item">Segundo item</li>
+                    <li class="list-group-item">Terceiro item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Link</a>
+                    <a href="#" class="card-link">Outro link</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <h4>Cabeçalho e rodapé [Header and footer]</h4>
+            <div class="card">
+                <div class="card-header">
+                    Cabeçalho
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Tratamento especial do título</h5>
+                    <p class="card-text">Com texto de apoio abaixo como uma entrada natural para conteúdo adicional.</p>
+                    <a href="#" class="btn btn-primary">Ir a algum lugar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <div class="card">
+                <div class="card-header">
+                    Citar
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Uma citação bem conhecida, contida em um elemento blockquote.</p>
+                        <footer class="blockquote-footer">Alguém famoso em <cite title="Source Title">Source
+                                Title</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <div class="card text-center">
+                <div class="card-header">
+                    Cabeçalho
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Tratamento especial do título</h5>
+                    <p class="card-text">Com texto de apoio abaixo como uma entrada natural para conteúdo adicional.</p>
+                    <a href="#" class="btn btn-primary">Ir a algum lugar</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                    2 dias atrás
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-4">Dimensionamento</h2>
+
+        <div class="mt-4">
+            <h4>Usando marcação de grade</h4>
+
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Tratamento especial do título</h5>
+                            <p class="card-text">Com texto de apoio abaixo como uma entrada natural para conteúdo
+                                adicional.
+                            </p>
+                            <a href="#" class="btn btn-primary">Ir a algum lugar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Tratamento especial do título</h5>
+                            <p class="card-text">Com texto de apoio abaixo como uma entrada natural para conteúdo
+                                adicional.
+                            </p>
+                            <a href="#" class="btn btn-primary">Ir a algum lugar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <h4>Usando utilitários</h4>
+            <div class="card w-75 mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Button</a>
+                </div>
+            </div>
+
+            <div class="card w-50">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Button</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <h4>Usando CSS personalizado</h4>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Tratamento especial do título</h5>
+                    <p class="card-text">Com texto de apoio abaixo como uma entrada natural para conteúdo adicional.</p>
+                    <a href="#" class="btn btn-primary">Ir a algum lugar</a>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-4">Alinhamento de texto</h2>
+
+        <div class="mt-4">
+            <div class="card mb-3" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Tratamento especial do título</h5>
+                    <p class="card-text">Com texto de apoio abaixo como uma entrada natural para conteúdo adicional.</p>
+                    <a href="#" class="btn btn-primary">Ir a algum lugar</a>
+                </div>
+            </div>
+
+            <div class="card text-center mb-3" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Tratamento especial do título</h5>
+                    <p class="card-text">Com texto de apoio abaixo como uma entrada natural para conteúdo adicional.</p>
+                    <a href="#" class="btn btn-primary">Ir a algum lugar</a>
+                </div>
+            </div>
+
+            <div class="card text-end" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Tratamento especial do título</h5>
+                    <p class="card-text">Com texto de apoio abaixo como uma entrada natural para conteúdo adicional.</p>
+                    <a href="#" class="btn btn-primary">Ir a algum lugar</a>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-4">Navegação</h2>
+
+        <div class="mt-4">
+            <div class="card text-center">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="true" href="#">Ativo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Desabilitado</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Tratamento especial do título</h5>
+                    <p class="card-text">Com texto de apoio abaixo como uma entrada natural para conteúdo adicional.</p>
+                    <a href="#" class="btn btn-primary">Ir a algum lugar</a>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4">
+            <div class="card text-center">
+                <div class="card-header">
+                    <ul class="nav nav-pills card-header-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-4">Imagens</h2>
+
+        <div class="mt-4">
+            <h4>Capas de imagem</h4>
+
+            <div class="card mb-3">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título do cartão</h5>
+                    <p class="card-text">Este é um cartão mais amplo com texto de apoio abaixo como uma entrada natural
+                        para conteúdo adicional. Este conteúdo é um pouco mais longo.</p>
+                    <p class="card-text"><small class="text-body-secondary">Última atualização há 3 minutos</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Título do cartão</h5>
+                    <p class="card-text">Este é um cartão mais amplo com texto de apoio abaixo como uma entrada natural
+                        para conteúdo adicional. Este conteúdo é um pouco mais longo.</p>
+                    <p class="card-text"><small class="text-body-secondary">Última atualização há 3 minutos</small></p>
+                </div>
+                <img src="https://via.placeholder.com/300" class="card-img-bottom" alt="...">
+            </div>
+        </div>
+
+        <h2 class="mt-4">Sobreposições de imagem</h2>
+
+        <div class="mt-4">
+            <div class="card text-bg-dark">
+                <img src="https://via.placeholder.com/300" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
